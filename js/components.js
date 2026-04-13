@@ -25,6 +25,8 @@ function renderFooter() {
   return `<footer class="bg-gray-100 border-t mt-12">
     <div class="max-w-5xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
       <p class="mb-2">This is general information, not legal or medical advice. Always confirm details with official sources.</p>
+      <p class="mb-2">More tools for expats in Japan:</p>
+      <p class="mb-3"><a href="https://humancronadmin.github.io/japan-disposal-guide/" class="text-blue-600 hover:underline">Disposal Guide</a> &bull; <a href="https://humancronadmin.github.io/japan-salon-finder/" class="text-blue-600 hover:underline">Salon Finder</a> &bull; <a href="https://humancronadmin.github.io/japan-housing-help/" class="text-blue-600 hover:underline">Housing Help</a> &bull; <a href="https://humancronadmin.github.io/japan-emergency-phrases/" class="text-blue-600 hover:underline">Emergency Phrases</a> &bull; <a href="https://humancronadmin.github.io/japan-utility-setup/" class="text-blue-600 hover:underline">Utility Setup</a></p>
       <p>&copy; ${new Date().getFullYear()} Japan Life Guide.
         <a href="https://github.com/humancronadmin" class="text-blue-600 hover:underline" target="_blank" rel="noopener">GitHub</a>
       </p>
