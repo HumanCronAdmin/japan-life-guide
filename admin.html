@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin &amp; Paperwork Guides — Japan Life Guide</title>
+  <meta name="description" content="How to register at city hall, get a My Number card, and renew your residence card in Japan.">
+  <meta property="og:title" content="Admin & Paperwork Guides — Japan Life Guide">
+  <meta property="og:description" content="Step-by-step admin and paperwork guides for foreign residents in Japan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://humancronadmin.github.io/japan-life-guide/admin.html">
+  <link rel="canonical" href="https://humancronadmin.github.io/japan-life-guide/admin.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div id="site-header"></div>
+  <main class="max-w-5xl mx-auto px-4 py-8">
+    <h1 class="text-2xl font-bold mb-2">Admin &amp; Paperwork Guides</h1>
+    <p class="text-gray-600 mb-6">City hall registration, My Number card, and residence card procedures.</p>
+    <div id="disclaimer-bar"></div>
+    <section class="mb-10">
+      <h2 class="text-lg font-semibold mb-4">Guides</h2>
+      <div id="guide-list" class="card-grid"></div>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-4">Helpful Resources</h2>
+      <div id="resource-list" class="card-grid"></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/guides-data.js"></script>
+  <script src="js/resources-data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById('disclaimer-bar').innerHTML = renderDisclaimer();
+    initCategoryPage('admin');
+  </script>
+</body>
+</html>

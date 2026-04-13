@@ -1,0 +1,61 @@
+/* Japan Life Guide — custom styles supplementing Tailwind */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; }
+
+/* Search input styling */
+#search-input {
+  min-height: 44px;
+  font-size: 16px; /* prevents zoom on iOS */
+}
+
+/* Tap targets minimum 44px */
+a, button, input, select, textarea {
+  min-height: 44px;
+}
+
+nav a {
+  min-height: auto;
+  padding: 8px 0;
+}
+
+/* Card grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* Smooth transitions */
+a { transition: color 0.15s ease, box-shadow 0.15s ease; }
+
+/* Mobile-first: 480px breakpoint */
+@media (min-width: 480px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Print styles */
+@media print {
+  header, footer, #search-input { display: none; }
+  .bg-yellow-50 { border: 1px solid #999; }
+}

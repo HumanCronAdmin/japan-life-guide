@@ -1,0 +1,86 @@
+[
+  {
+    "id": "amda-hotline",
+    "name": "AMDA International Medical Information Center",
+    "url": "https://www.amdamedicalcenter.com/",
+    "phone": "03-6233-9266",
+    "description": "Multilingual medical consultation hotline. Helps find English-speaking doctors and provides medical information in multiple languages.",
+    "category": "medical",
+    "type": "hotline"
+  },
+  {
+    "id": "tell-lifeline",
+    "name": "TELL Lifeline",
+    "url": "https://telljp.com/",
+    "phone": "03-5774-0992",
+    "description": "English-language counseling and support service. Provides free, anonymous telephone counseling for anyone in Japan.",
+    "category": "medical",
+    "type": "hotline"
+  },
+  {
+    "id": "himawari-tokyo",
+    "name": "Tokyo Metropolitan Health and Medical Info Center (Himawari)",
+    "url": "https://www.himawari.metro.tokyo.lg.jp/qq/qq13enmnlt.asp",
+    "phone": "03-5285-8181",
+    "description": "Tokyo's multilingual medical information service. Helps find hospitals and clinics, available in English, Chinese, Korean, Thai, and Spanish.",
+    "category": "medical",
+    "type": "hotline"
+  },
+  {
+    "id": "immigration-services-agency",
+    "name": "Immigration Services Agency of Japan",
+    "url": "https://www.moj.go.jp/isa/index.html",
+    "phone": "0570-013904",
+    "description": "Official government agency handling visas, residence cards, and immigration procedures. The Information Center provides guidance in multiple languages.",
+    "category": "admin",
+    "type": "government"
+  },
+  {
+    "id": "nhi-info",
+    "name": "National Health Insurance (NHI) Official Information",
+    "url": "https://www.mhlw.go.jp/english/policy/health-medical/health-insurance/index.html",
+    "description": "Ministry of Health, Labour and Welfare official page explaining the National Health Insurance system for residents of Japan.",
+    "category": "medical",
+    "type": "government"
+  },
+  {
+    "id": "fire-emergency-119",
+    "name": "Emergency Number 119 (Ambulance / Fire)",
+    "phone": "119",
+    "description": "Japan's emergency number for ambulance and fire services. Free to call from any phone, available 24 hours. Some areas have multilingual support.",
+    "category": "medical",
+    "type": "emergency"
+  },
+  {
+    "id": "police-110",
+    "name": "Emergency Number 110 (Police)",
+    "phone": "110",
+    "description": "Japan's police emergency number. Free to call from any phone, available 24 hours.",
+    "category": "admin",
+    "type": "emergency"
+  },
+  {
+    "id": "japan-helpline",
+    "name": "Japan Helpline",
+    "phone": "0570-000-911",
+    "description": "24-hour emergency assistance in English. Provides support for a wide range of problems including accidents, illness, and general life issues.",
+    "category": "medical",
+    "type": "hotline"
+  },
+  {
+    "id": "mynumber-portal",
+    "name": "My Number Card Information (Digital Agency)",
+    "url": "https://www.digital.go.jp/policies/mynumber",
+    "description": "Official information about the My Number system and My Number Card from the Digital Agency of Japan.",
+    "category": "admin",
+    "type": "government"
+  },
+  {
+    "id": "clair-multilingual",
+    "name": "CLAIR (Council of Local Authorities for International Relations)",
+    "url": "https://www.clair.or.jp/tagengo/",
+    "description": "Multilingual living guides covering daily life topics for foreign residents in Japan. Available in 14 languages.",
+    "category": "daily",
+    "type": "government"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "visit-doctor",
+    "category": "medical",
+    "title": "How to Visit a Doctor in Japan",
+    "summary": "What to bring, what to expect, and how the process works at a Japanese clinic",
+    "steps": [
+      {"order": 1, "title": "Find a clinic near you", "detail": "Search for a nearby clinic (kurinikku) or hospital (byouin). Smaller clinics handle most general visits. No appointment needed at many clinics — walk-ins are common.", "tip": "Google Maps works well. Search 'clinic' or 'internal medicine' (naika) near your location."},
+      {"order": 2, "title": "Bring your insurance card", "detail": "Your National Health Insurance (NHI) card or employer-provided health insurance card (hokenshou) is required. NHI covers 70% of costs — you pay 30%.", "tip": "If you forget your card, you pay 100% upfront. Return with the card within the same month to get a refund."},
+      {"order": 3, "title": "Arrive and fill out the intake form", "detail": "At reception, hand over your insurance card. You will receive a monshin-hyou (intake questionnaire). Fill in your symptoms, allergies, and current medications.", "tip": "Many clinics have English forms. If not, show your symptoms written on your phone."},
+      {"order": 4, "title": "Wait to be called", "detail": "Wait in the waiting room. Clinics call patients by name or number. Wait times range from 15 minutes to over an hour depending on the clinic.", "tip": "Bring something to read. Popular clinics can have long waits, especially Monday mornings."},
+      {"order": 5, "title": "See the doctor", "detail": "The doctor will examine you and explain the diagnosis. Consultations are typically brief (5-10 minutes). The doctor may write a prescription (shohousen).", "tip": "Prepare your symptoms in simple Japanese or English. Many doctors understand basic medical English."},
+      {"order": 6, "title": "Pay at reception", "detail": "After your consultation, pay at the reception desk. With insurance, a typical clinic visit costs 1,000-3,000 yen. Cash is preferred; some clinics accept cards.", "tip": "Keep your receipt (ryoushuu-sho) for tax deduction purposes if your annual medical expenses exceed 100,000 yen."},
+      {"order": 7, "title": "Pick up your prescription", "detail": "Take your prescription slip (shohousen) to a nearby pharmacy (yakkyoku). The pharmacy fills the prescription and you pay the medication cost (also 30% with insurance).", "tip": "Pharmacies near clinics are convenient but any pharmacy in Japan will accept your prescription."}
+    ],
+    "bring": ["Health insurance card (hokenshou)", "Cash (1,000-5,000 yen)", "My Number card (optional)", "List of current medications", "Photo ID (for first visit)"],
+    "phrases": [
+      {"ja": "初診です", "en": "This is my first visit", "romaji": "shoshin desu"},
+      {"ja": "予約はありません", "en": "I do not have an appointment", "romaji": "yoyaku wa arimasen"},
+      {"ja": "熱があります", "en": "I have a fever", "romaji": "netsu ga arimasu"},
+      {"ja": "頭が痛いです", "en": "I have a headache", "romaji": "atama ga itai desu"},
+      {"ja": "英語を話せる先生はいますか", "en": "Is there a doctor who speaks English?", "romaji": "eigo wo hanaseru sensei wa imasu ka"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "call-119",
+    "category": "medical",
+    "title": "How to Call 119 (Ambulance / Fire)",
+    "summary": "Japan's emergency number for ambulance and fire. Free to call, available 24/7",
+    "steps": [
+      {"order": 1, "title": "Dial 119 from any phone", "detail": "Call 119 from any phone (mobile or landline). This is the emergency number for both ambulance (kyuukyuu) and fire (kaji). The call is free.", "tip": "For police, call 110 instead. 119 is only for medical emergencies and fire."},
+      {"order": 2, "title": "Say 'kyuukyuusha onegaishimasu'", "detail": "When the operator answers, say 'kyuukyuusha onegaishimasu' (ambulance please) for medical emergencies. For fire, say 'kaji desu' (it's a fire).", "tip": "Some areas have multilingual operators. If you cannot speak Japanese, say 'English please' slowly."},
+      {"order": 3, "title": "Give your location", "detail": "The operator will ask for your address (juusho). Give the full address or nearest landmark. If outdoors, describe nearby buildings or intersections.", "tip": "Check Google Maps for your exact address. Utility poles often have address plates (blue signs)."},
+      {"order": 4, "title": "Describe the situation", "detail": "Explain what happened and the patient's condition: conscious or unconscious, breathing or not, visible injuries. The operator may give first aid instructions.", "tip": "Stay calm and speak slowly. The operator is trained to guide you through the process."},
+      {"order": 5, "title": "Wait for the ambulance", "detail": "Average response time is 7-9 minutes in urban areas. Stay on the line if instructed. Go outside to guide the ambulance to the correct location if possible.", "tip": "Ambulances in Japan are free. You will not be charged for the ambulance ride."},
+      {"order": 6, "title": "At the hospital", "detail": "The ambulance crew will take the patient to the nearest available hospital. Bring the patient's insurance card and ID if possible. The hospital will treat first, handle payment later.", "tip": "Emergency treatment is provided regardless of insurance status. Settle payment afterward."}
+    ],
+    "bring": ["Health insurance card (if available)", "Residence card or passport", "Cash", "Phone for translation apps"],
+    "phrases": [
+      {"ja": "救急車お願いします", "en": "Ambulance please", "romaji": "kyuukyuusha onegaishimasu"},
+      {"ja": "火事です", "en": "It is a fire", "romaji": "kaji desu"},
+      {"ja": "意識がありません", "en": "They are unconscious", "romaji": "ishiki ga arimasen"},
+      {"ja": "呼吸していません", "en": "They are not breathing", "romaji": "kokyuu shiteimasen"},
+      {"ja": "住所は〇〇です", "en": "The address is...", "romaji": "juusho wa ... desu"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "english-speaking-clinics",
+    "category": "medical",
+    "title": "How to Find English-Speaking Clinics",
+    "summary": "Resources and methods to find clinics and hospitals with English-speaking staff",
+    "steps": [
+      {"order": 1, "title": "Check the AMDA Medical Information Center", "detail": "AMDA International Medical Information Center provides multilingual medical consultation. Call 03-6233-9266 for help finding English-speaking doctors in your area.", "tip": "AMDA operates Monday to Friday. Check their website for current hours."},
+      {"order": 2, "title": "Search your city or ward website", "detail": "Many city and ward offices maintain lists of medical facilities with foreign language support. Search '[your city] English speaking hospital' or check the international residents section of the municipal website.", "tip": "Tokyo, Osaka, and other major cities have comprehensive multilingual medical facility lists."},
+      {"order": 3, "title": "Use the JNTO Medical Facility Search", "detail": "Japan National Tourism Organization (JNTO) maintains a searchable database of medical facilities that accept foreign patients, searchable by area and language.", "tip": "This database is also useful for finding facilities that accept travel insurance."},
+      {"order": 4, "title": "Ask your local international center", "detail": "Most prefectures have international exchange associations (kokusai kouryuu kyoukai) that maintain referral lists for English-speaking medical professionals.", "tip": "These centers often provide free interpretation services for medical visits."},
+      {"order": 5, "title": "Check Google Maps reviews", "detail": "Search Google Maps for clinics near you and read reviews in English. Other foreign residents often mention whether staff speak English.", "tip": "Larger hospitals are more likely to have English-speaking staff than small neighborhood clinics."},
+      {"order": 6, "title": "Call ahead to confirm", "detail": "Before visiting, call the clinic and ask 'Eigo de shinryou dekimasu ka?' (Can I receive treatment in English?). This saves time and avoids miscommunication.", "tip": "Even if a doctor does not speak fluent English, many can communicate basic medical information."}
+    ],
+    "bring": ["Health insurance card", "Phone number of AMDA (03-6233-9266)", "Your address in Japanese"],
+    "phrases": [
+      {"ja": "英語で診療できますか", "en": "Can I receive treatment in English?", "romaji": "eigo de shinryou dekimasu ka"},
+      {"ja": "通訳はいますか", "en": "Is there an interpreter?", "romaji": "tsuuyaku wa imasu ka"},
+      {"ja": "英語を話せる先生はいますか", "en": "Is there a doctor who speaks English?", "romaji": "eigo wo hanaseru sensei wa imasu ka"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "pharmacy-nhi",
+    "category": "medical",
+    "title": "How to Use NHI at a Pharmacy",
+    "summary": "How to fill a prescription at a Japanese pharmacy with your health insurance",
+    "steps": [
+      {"order": 1, "title": "Get your prescription slip from the doctor", "detail": "After your clinic visit, the doctor gives you a prescription slip (shohousen). This is a paper form listing your medications. It is valid for 4 days including the date of issue.", "tip": "Do not lose the prescription slip. If it expires, you need a new one from the doctor."},
+      {"order": 2, "title": "Go to any pharmacy", "detail": "Take the prescription to any pharmacy (yakkyoku) in Japan. You are not required to use a specific pharmacy. Pharmacies near clinics are convenient but often busy.", "tip": "Look for the green cross sign or the kanji 薬局 (yakkyoku)."},
+      {"order": 3, "title": "Hand over your prescription and insurance card", "detail": "Give the pharmacist your prescription slip and health insurance card. If it is your first visit to this pharmacy, you may fill out a brief medical history form.", "tip": "The pharmacist may ask about allergies and other medications you take."},
+      {"order": 4, "title": "Wait for your medication", "detail": "The pharmacist prepares your medication. Wait time is usually 10-20 minutes. For common medications, it may be faster.", "tip": "Some pharmacies offer to send a text notification when your order is ready."},
+      {"order": 5, "title": "Receive your medication and explanation", "detail": "The pharmacist explains how to take each medication: dosage, frequency, and timing (before/after meals). They provide a medication info sheet (yakuzai jouhou teikyousho).", "tip": "Ask for English instructions if available. Take a photo of the Japanese instructions to translate later."},
+      {"order": 6, "title": "Pay with your insurance", "detail": "With NHI, you pay 30% of the medication cost. Cash is most common; some pharmacies accept cards or electronic payment. A typical prescription costs 500-2,000 yen.", "tip": "Keep your pharmacy receipts. You receive a medication record book (okusuri techou) to track all prescriptions."}
+    ],
+    "bring": ["Prescription slip (shohousen)", "Health insurance card", "Medication record book (okusuri techou) if you have one", "Cash (500-2,000 yen typical)"],
+    "phrases": [
+      {"ja": "この処方箋をお願いします", "en": "I would like to fill this prescription", "romaji": "kono shohousen wo onegaishimasu"},
+      {"ja": "お薬手帳はありますか", "en": "Do you have a medication record book?", "romaji": "okusuri techou wa arimasu ka"},
+      {"ja": "ジェネリックでお願いします", "en": "Generic version please", "romaji": "jenerikku de onegaishimasu"},
+      {"ja": "飲み方を教えてください", "en": "Please explain how to take this", "romaji": "nomikata wo oshiete kudasai"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "city-hall-registration",
+    "category": "admin",
+    "title": "How to Register at City Hall",
+    "summary": "Residence registration is required within 14 days of moving. Here is how to do it.",
+    "steps": [
+      {"order": 1, "title": "Go within 14 days of moving", "detail": "By law, you must register your address at the municipal office (shiyakusho / kuyakusho) within 14 days of moving to a new address. This applies when you first arrive in Japan and every time you move.", "tip": "Late registration may cause issues with insurance and other services. Do this as soon as possible."},
+      {"order": 2, "title": "Prepare your documents", "detail": "Bring your residence card (zairyuu card), passport, and the address of your new home. If moving within Japan, you also need the moving-out certificate (tenshutsu todoke) from your previous city hall.", "tip": "Write your new address in Japanese before going. Your landlord or real estate agent can provide this."},
+      {"order": 3, "title": "Go to the resident registration counter", "detail": "At city hall, find the resident registration counter (juumin ka or shimin ka). Take a number and wait. Operating hours are typically weekday 8:30 AM to 5:00 PM.", "tip": "Some city halls open on select Saturdays. Check your city hall website for hours."},
+      {"order": 4, "title": "Fill out the moving-in notification", "detail": "Complete the moving-in notification form (tennyu todoke). Staff can help you fill it out. You write your name, nationality, address, and residence card number.", "tip": "Ask for help if you cannot read the form. Staff at city halls in major cities often handle foreign residents regularly."},
+      {"order": 5, "title": "Submit and get your card updated", "detail": "Hand in the form with your documents. The staff updates the address on the back of your residence card. This usually takes 15-30 minutes.", "tip": "Your residence card is your official ID in Japan. Keep the address on it current at all times."},
+      {"order": 6, "title": "Enroll in National Health Insurance (if applicable)", "detail": "If you are not covered by employer insurance, enroll in NHI at the same time. This is done at the insurance counter (kokumin kenko hoken) in the same building.", "tip": "NHI premiums are based on your previous year income. First-year residents often pay reduced premiums."}
+    ],
+    "bring": ["Residence card (zairyuu card)", "Passport", "New address written in Japanese", "Moving-out certificate (if moving within Japan)", "My Number notification card (if you have one)"],
+    "phrases": [
+      {"ja": "転入届を出したいです", "en": "I want to submit a moving-in notification", "romaji": "tennyuu todoke wo dashitai desu"},
+      {"ja": "住民登録をしたいです", "en": "I want to register as a resident", "romaji": "juumin touroku wo shitai desu"},
+      {"ja": "国民健康保険に入りたいです", "en": "I want to enroll in National Health Insurance", "romaji": "kokumin kenkou hoken ni hairitai desu"},
+      {"ja": "英語対応はありますか", "en": "Is English support available?", "romaji": "eigo taiou wa arimasu ka"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "my-number-card",
+    "category": "admin",
+    "title": "How to Get a My Number Card",
+    "summary": "The My Number card is a government-issued photo ID. Application takes 1-2 months.",
+    "steps": [
+      {"order": 1, "title": "Receive your My Number notification", "detail": "When you register at city hall, you receive a My Number (12-digit individual number). You also get a notification card (tsuuchi card) — a paper card with your number. This is NOT the My Number Card itself.", "tip": "Keep your My Number confidential. Do not share it unnecessarily."},
+      {"order": 2, "title": "Apply for the My Number Card", "detail": "Apply at your city hall, online, or by mail. You need a photo (4.5cm x 3.5cm, white background, taken within 6 months). The online application is at mynumbercard.point.soumu.go.jp.", "tip": "The online application is the fastest method. You can take the photo with your smartphone."},
+      {"order": 3, "title": "Wait for the notification letter", "detail": "Processing takes approximately 1-2 months. You will receive a pickup notification letter (koufuu tsuuchi-sho) by mail when your card is ready.", "tip": "Processing times vary. Urban areas may be faster due to more frequent batches."},
+      {"order": 4, "title": "Pick up your card at city hall", "detail": "Bring the pickup notification letter, your notification card (tsuuchi card), your residence card, and a photo ID. Go to the designated counter at city hall.", "tip": "You must pick up the card in person. A representative cannot collect it for you in most cases."},
+      {"order": 5, "title": "Set your PINs", "detail": "At pickup, you set two PINs: a 4-digit PIN for basic use and a 6-16 character password for digital certificate functions (e-Tax, etc.).", "tip": "Remember your PINs. If you forget them, you must reset at city hall in person."},
+      {"order": 6, "title": "Start using your card", "detail": "The My Number Card works as a photo ID, can be used for tax filing (e-Tax), accessing government online services, and as a health insurance card (after registration).", "tip": "You can link your My Number Card to your health insurance at city hall or online via the mynaportal."}
+    ],
+    "bring": ["My Number notification card (tsuuchi card)", "Residence card (zairyuu card)", "Passport", "Photo (4.5cm x 3.5cm, white background)", "Pickup notification letter (for collection)"],
+    "phrases": [
+      {"ja": "マイナンバーカードを申請したいです", "en": "I want to apply for a My Number Card", "romaji": "mainanbaa kaado wo shinsei shitai desu"},
+      {"ja": "マイナンバーカードを受け取りに来ました", "en": "I came to pick up my My Number Card", "romaji": "mainanbaa kaado wo uketori ni kimashita"},
+      {"ja": "暗証番号を設定します", "en": "I will set my PIN", "romaji": "anshou bangou wo settei shimasu"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "renew-residence-card",
+    "category": "admin",
+    "title": "How to Renew Your Residence Card",
+    "summary": "Residence card renewal process at the Immigration Services Agency",
+    "steps": [
+      {"order": 1, "title": "Check your expiration date", "detail": "Your residence card (zairyuu card) has an expiration date on the front. You can apply for renewal starting 3 months before expiration.", "tip": "Do not let your card expire. Overstaying is a serious immigration violation."},
+      {"order": 2, "title": "Prepare your documents", "detail": "Required documents vary by visa type but generally include: application form, passport, current residence card, a 4cm x 3cm photo, and supporting documents for your visa category (employment certificate, school enrollment, etc.).", "tip": "Check the Immigration Services Agency website for your specific visa category requirements."},
+      {"order": 3, "title": "Go to the Immigration Services Bureau", "detail": "Visit your regional Immigration Services Bureau (shutsunyuukoku zairyuu kanri kyoku). Major cities have offices in Tokyo (Shinagawa), Osaka, Nagoya, Fukuoka, etc. Arrive early as wait times can be very long.", "tip": "Some regional offices are less crowded than major city offices. Check if a satellite office near you handles renewals."},
+      {"order": 4, "title": "Submit your application", "detail": "Take a number at the counter, submit your application and documents. The staff reviews your documents and issues a receipt. Processing typically takes 2-4 weeks.", "tip": "If documents are missing, you may be asked to return with additional materials. Bring everything the first time."},
+      {"order": 5, "title": "Receive your notification postcard", "detail": "When your renewal is approved, you receive a postcard (hagaki) by mail. This postcard is your pickup notification.", "tip": "If you do not receive the postcard within the expected timeframe, you can call to check status."},
+      {"order": 6, "title": "Pick up your new residence card", "detail": "Return to the Immigration office with the notification postcard, your passport, and current residence card. Pay the fee (4,000 yen revenue stamp). You receive your new card on the spot.", "tip": "Buy the revenue stamp (shuunyuu inshi) at the post office or convenience store inside the Immigration building."}
+    ],
+    "bring": ["Current residence card", "Passport", "Application form (download from Immigration website)", "Photo (4cm x 3cm, white background, taken within 3 months)", "Supporting documents for your visa type", "4,000 yen revenue stamp (shuunyuu inshi)", "Notification postcard (for pickup)"],
+    "phrases": [
+      {"ja": "在留期間の更新をしたいです", "en": "I want to renew my period of stay", "romaji": "zairyuu kikan no koushin wo shitai desu"},
+      {"ja": "申請書はどこですか", "en": "Where are the application forms?", "romaji": "shinsei-sho wa doko desu ka"},
+      {"ja": "収入印紙はどこで買えますか", "en": "Where can I buy a revenue stamp?", "romaji": "shuunyuu inshi wa doko de kaemasu ka"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "setup-utilities",
+    "category": "daily",
+    "title": "How to Set Up Utilities",
+    "summary": "Electricity, gas, water, and internet setup when moving into a new home",
+    "steps": [
+      {"order": 1, "title": "Check what is already connected", "detail": "In many Japanese apartments, electricity and water are already connected or easy to start. Gas almost always requires an in-person opening appointment. Your landlord or real estate agent should tell you which utility companies serve your address.", "tip": "Ask your real estate agent for the utility company names and phone numbers before move-in day."},
+      {"order": 2, "title": "Start electricity", "detail": "Find the breaker box in your apartment and flip the main switch ON. If power does not come on, call the local electric company. In deregulated areas, you can choose your provider. Major companies: TEPCO (Tokyo), Kansai Electric (Osaka), Chubu Electric (Nagoya).", "tip": "Many electric companies have online sign-up in English. You need your address and move-in date."},
+      {"order": 3, "title": "Start water", "detail": "Turn the water valve (usually outside near the meter) to open. Then call or go online to register with your local waterworks bureau (suidou kyoku). You need your address and move-in date.", "tip": "Water is managed by the municipality, not private companies. Check your city website."},
+      {"order": 4, "title": "Schedule gas opening", "detail": "Call your gas company to schedule an opening appointment. An engineer must visit in person to turn on gas and check for leaks. You must be home during the appointment. Major companies: Tokyo Gas, Osaka Gas, Toho Gas.", "tip": "Book the gas appointment before move-in if possible. Weekend appointments fill up quickly."},
+      {"order": 5, "title": "Set up internet", "detail": "Options include fiber (hikari), mobile Wi-Fi (pocket Wi-Fi), or home router plans. Fiber installation takes 2-4 weeks. Apply through NTT, au hikari, NURO, SoftBank, or other providers.", "tip": "Check if your building has existing fiber. Mansion-type plans are cheaper and install faster."},
+      {"order": 6, "title": "Set up payment methods", "detail": "Utilities can be paid by bank transfer (kouza furikae), credit card, or convenience store payment slips. Automatic bank transfer often gives a small discount.", "tip": "Set up automatic payment early to avoid missing bills. Convenience store payment is a backup."}
+    ],
+    "bring": ["Apartment address in Japanese", "Move-in date", "Bank account details (for auto-payment)", "Phone for calling utility companies", "Residence card number"],
+    "phrases": [
+      {"ja": "電気を開始したいです", "en": "I want to start electricity", "romaji": "denki wo kaishi shitai desu"},
+      {"ja": "ガスの開栓をお願いします", "en": "I would like to open my gas service", "romaji": "gasu no kaisen wo onegaishimasu"},
+      {"ja": "水道を使い始めたいです", "en": "I want to start water service", "romaji": "suidou wo tsukai hajimetai desu"},
+      {"ja": "引っ越し日は〇月〇日です", "en": "My move-in date is...", "romaji": "hikkoshi-bi wa ... gatsu ... nichi desu"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  },
+  {
+    "id": "sort-garbage",
+    "category": "daily",
+    "title": "How to Sort Garbage in Japan",
+    "summary": "Garbage sorting rules, collection days, and common mistakes to avoid",
+    "steps": [
+      {"order": 1, "title": "Get your local garbage guide", "detail": "Every ward and city has its own garbage sorting rules and collection schedule. When you register at city hall or move into an apartment, you should receive a garbage sorting guide. Many are available in English from your city website.", "tip": "Search '[your city/ward name] garbage sorting English' to find the PDF guide online."},
+      {"order": 2, "title": "Learn the main categories", "detail": "Most areas sort into: burnable garbage (moeru gomi) — food waste, paper, small wood items; non-burnable garbage (moenai gomi) — metals, ceramics, small appliances; recyclables (shigen gomi) — PET bottles, cans, glass bottles, newspapers, cardboard.", "tip": "When in doubt, check the material symbol on the packaging. Japanese packaging is labeled with recycling codes."},
+      {"order": 3, "title": "Learn your collection days", "detail": "Each category is collected on specific days of the week. Burnable garbage is usually collected 2 times per week. Non-burnable and recyclables are typically collected 1-2 times per month. Put garbage out by 8:00 AM on collection day.", "tip": "Your landlord or building manager can tell you the exact schedule. Collection calendars are posted at garbage stations."},
+      {"order": 4, "title": "Use the correct bags", "detail": "Some cities require designated paid garbage bags (shitei gomi bukuro), purchased at convenience stores or supermarkets. Other cities allow any transparent or semi-transparent bag.", "tip": "Check if your city uses designated bags. Using the wrong bag means your garbage will not be collected."},
+      {"order": 5, "title": "Prepare recyclables properly", "detail": "Rinse PET bottles and remove caps and labels (these go in separate categories). Flatten cardboard. Tie newspapers with string. Rinse cans and glass bottles.", "tip": "PET bottle caps are often collected separately as plastic (pura) waste."},
+      {"order": 6, "title": "Handle oversized items", "detail": "Large items (furniture, appliances over 30cm) are 'oversized garbage' (sodai gomi). You must call your city to schedule a pickup and purchase a disposal sticker. Fees range from 200-2,800 yen per item depending on size.", "tip": "Some items (TVs, refrigerators, washing machines, air conditioners) cannot go as oversized garbage. These require recycling through the retailer or a designated collection point."}
+    ],
+    "bring": ["Local garbage sorting guide", "Correct garbage bags", "Disposal stickers for oversized items"],
+    "phrases": [
+      {"ja": "ゴミの出し方を教えてください", "en": "Please tell me how to put out garbage", "romaji": "gomi no dashikata wo oshiete kudasai"},
+      {"ja": "粗大ゴミの申し込みをしたいです", "en": "I want to apply for oversized garbage pickup", "romaji": "sodai gomi no moushikomi wo shitai desu"},
+      {"ja": "これは何ゴミですか", "en": "What category is this garbage?", "romaji": "kore wa nani gomi desu ka"}
+    ],
+    "disclaimer": "general-info",
+    "lastVerified": "2026-04"
+  }
+]
