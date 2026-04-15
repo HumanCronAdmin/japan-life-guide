@@ -1,109 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","w4mr6qi83a");</script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
-  <title>Japan Life Guide — Free Tools & Guides for Foreigners in Japan</title>
-  <meta name="description" content="Free tools and step-by-step guides for foreigners living in Japan. Tax calculators, housing help, emergency phrases, size converters, and more.">
-  <meta property="og:title" content="Japan Life Guide — Free Tools & Guides for Foreigners in Japan">
-  <meta property="og:description" content="Free tools and step-by-step guides for foreigners in Japan. Tax, housing, safety, shopping, language — everything in one place.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://humancronadmin.github.io/japan-life-guide/">
-  <link rel="canonical" href="https://humancronadmin.github.io/japan-life-guide/">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
-  <link rel="stylesheet" href="css/style.css">
+ <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","w4mr6qi83a");</script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1N5PR9Y0H"></script>
+ <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H1N5PR9Y0H');</script>
+ <title>Japan Life Guide — Free Tools & Guides for Foreigners in Japan</title>
+ <meta name="description" content="Free tools and step-by-step guides for foreigners living in Japan. Tax calculators, housing help, emergency phrases, size converters, and more.">
+ <meta property="og:title" content="Japan Life Guide — Free Tools & Guides for Foreigners in Japan">
+ <meta property="og:description" content="Free tools and step-by-step guides for foreigners in Japan. Tax, housing, safety, shopping, language — everything in one place.">
+ <meta property="og:image" content="https://humancronadmin.github.io/japan-life-guide/og-image.png">
+ <meta property="og:image:width" content="1200">
+ <meta property="og:image:height" content="630">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://humancronadmin.github.io/japan-life-guide/">
+ <link rel="canonical" href="https://humancronadmin.github.io/japan-life-guide/">
+ <script src="https://cdn.tailwindcss.com"></script>
+ <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+ <link rel="stylesheet" href="css/style.css">
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Japan Life Guide","url":"https://humancronadmin.github.io/japan-life-guide/","description":"Japan Life Guide","inLanguage":"en","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://humancronadmin.github.io/japan-life-guide/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Japan Life Guide","url":"https://humancronadmin.github.io/japan-life-guide/","description":"Japan Life Guide","about":{"@type":"Thing","name":"Japan Life Guide"},"audience":{"@type":"Audience","audienceType":"general"},"isAccessibleForFree":true,"inLanguage":"en"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://humancronadmin.github.io/japan-life-guide/"}]}</script>
 </head>
 <body class="bg-gray-50 text-gray-900">
-  <div id="site-header"></div>
-  <main class="max-w-5xl mx-auto px-4 py-8">
-    <section class="text-center mb-8">
-      <h1 class="text-3xl font-bold mb-2">Japan Life Guide</h1>
-      <p class="text-gray-600 mb-6">Free tools and guides for foreigners living in Japan — all in one place</p>
-      <input id="search-input" type="search" placeholder="Search guides (e.g. doctor, garbage, city hall...)"
-        class="w-full max-w-lg mx-auto block border border-gray-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-blue-500">
-    </section>
-    <div id="search-results" class="card-grid hidden mb-8"></div>
-    <section class="mb-10">
-      <h2 class="text-xl font-bold mb-4">Free Tools by Topic</h2>
-      <p class="text-gray-500 mb-4 text-sm">Tap any tool to open it. All free, no sign-up needed.</p>
-      <div id="tool-grid"></div>
-    </section>
-    <section class="mb-10">
-      <h2 class="text-xl font-bold mb-4">Step-by-Step Guides</h2>
-      <div id="category-cards" class="card-grid"></div>
-    </section>
-    <section>
-      <h2 class="text-xl font-bold mb-4">Popular Guides</h2>
-      <div id="featured-guides" class="card-grid"></div>
-    </section>
-  </main>
-  <section style="border:1px solid #e2e8f0;border-radius:12px;padding:20px 16px;margin:24px auto;max-width:600px;text-align:center;background:#f8fafc;">
-    <p style="font-weight:700;font-size:1.05rem;color:#1e3a5f;margin:0 0 6px;">Improve your Japanese for daily life</p>
-    <p style="font-size:0.85rem;color:#555;margin:0 0 14px;">Unlimited online lessons with native speakers. No booking, no waiting.</p>
-    <a href="//af.moshimo.com/af/c/click?a_id=5455754&p_id=6054&pc_id=16990&pl_id=77719" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" target="_blank" style="display:inline-block;padding:10px 20px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.9rem;min-height:44px;line-height:24px;">Try NativeCamp Free for 7 Days</a><img src="//i.moshimo.com/af/i/impression?a_id=5455754&p_id=6054&pc_id=16990&pl_id=77719" width="1" height="1" style="border:none;" loading="lazy">
-  </section>
-  <div id="site-footer"></div>
-  <script src="js/guides-data.js"></script>
-  <script src="js/resources-data.js"></script>
-  <script src="js/components.js"></script>
-  <script src="js/app.js"></script>
-  <script>
-  const toolCategories = [
-    {cat:"Money & Tax", icon:"💰", tools:[
-      {n:"Tax Calculator",d:"Income tax, resident tax, insurance — see your take-home pay",u:"https://humancronadmin.github.io/japan-tax-calculator/"},
-      {n:"US Expat Tax Checker",d:"FBAR, FATCA, double taxation explained for Americans in Japan",u:"https://humancronadmin.github.io/japan-expat-tax-checker/"},
-      {n:"NISA Investment Guide",d:"Post-NISA options: iDeCo, taxable accounts, overseas brokers",u:"https://humancronadmin.github.io/nisa-investment-guide/"},
-      {n:"Advanced Finance",d:"Brokerage accounts, investment strategies for long-term residents",u:"https://humancronadmin.github.io/japan-advanced-finance/"},
-      {n:"Money Transfer Compare",d:"Wise vs Revolut vs SBI Remit — fees and rates side by side",u:"https://humancronadmin.github.io/money-transfer-japan/"},
-      {n:"Tech Salary Explorer",d:"Compare tech salaries by role, city, and experience level",u:"https://humancronadmin.github.io/japan-tech-salary/"}
-    ]},
-    {cat:"Housing & Daily Life", icon:"🏠", tools:[
-      {n:"Housing Help",d:"Renting an apartment: key money, guarantors, and English-friendly options",u:"https://humancronadmin.github.io/japan-housing-help/"},
-      {n:"Utility Setup Guide",d:"Electricity, gas, water, internet — step by step",u:"https://humancronadmin.github.io/japan-utility-setup/"},
-      {n:"Disposal Guide",d:"How to sort and dispose of 20+ item types correctly",u:"https://humancronadmin.github.io/japan-disposal-guide/"}
-    ]},
-    {cat:"Health & Safety", icon:"🏥", tools:[
-      {n:"Emergency Phrases",d:"Essential Japanese for medical, police, and disaster emergencies",u:"https://humancronadmin.github.io/japan-emergency-phrases/"},
-      {n:"Scam Checker",d:"Check if a business or offer is a known scam targeting foreigners",u:"https://humancronadmin.github.io/japan-scam-checker/"},
-      {n:"Fake Product Detector",d:"Spot counterfeit goods and fraudulent sellers in Japan",u:"https://humancronadmin.github.io/japan-fake-detector/"},
-      {n:"Wheelchair Accessibility",d:"Accessible spots, transport, and hotels across Japan",u:"https://humancronadmin.github.io/wheelchair-accessibility-guide/"}
-    ]},
-    {cat:"Paperwork & Admin", icon:"📋", tools:[
-      {n:"Bureaucracy Buddy",d:"Post-arrival checklist filtered by visa type",u:"https://humancronadmin.github.io/japan-bureaucracy-buddy/"},
-      {n:"Pro Finder",d:"Find English-speaking professionals: lawyers, accountants, doctors",u:"https://humancronadmin.github.io/japan-pro-finder/"}
-    ]},
-    {cat:"Shopping & Sizes", icon:"🛍️", tools:[
-      {n:"Size Converter",d:"Clothing and shoe sizes: Japan, US, UK, EU instantly",u:"https://humancronadmin.github.io/japan-size-converter/"},
-      {n:"Proxy Helper",d:"How to buy Japan-only items and ship internationally",u:"https://humancronadmin.github.io/japan-proxy-helper/"},
-      {n:"Foreign Grocery Finder",d:"Where to find home-country foods in Japan",u:"https://humancronadmin.github.io/foreign-grocery-finder/"}
-    ]},
-    {cat:"Language & Education", icon:"🗣️", tools:[
-      {n:"Nihongo VS",d:"Compare similar Japanese words and grammar side by side",u:"https://humancronadmin.github.io/nihongo-vs/"},
-      {n:"School Finder",d:"Compare Japanese language schools by location, price, and visa support",u:"https://humancronadmin.github.io/japanese-school-finder/"},
-      {n:"Salon Finder",d:"English-friendly hair salons across major Japanese cities",u:"https://humancronadmin.github.io/japan-salon-finder/"}
-    ]}
-  ];
-  const tg=document.getElementById('tool-grid');
-  tg.innerHTML=toolCategories.map(c=>`
-    <div style="margin-bottom:24px;">
-      <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:10px;">${c.icon} ${c.cat}</h3>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;">
-        ${c.tools.map(t=>`<a href="${t.u}" target="_blank" rel="noopener" style="display:block;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:14px 16px;text-decoration:none;color:inherit;transition:box-shadow .15s;min-height:44px;" onmouseover="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
-          <div style="font-weight:600;font-size:0.95rem;color:#1e3a5f;margin-bottom:4px;">${t.n}</div>
-          <div style="font-size:0.82rem;color:#64748b;line-height:1.4;">${t.d}</div>
-        </a>`).join('')}
-      </div>
-    </div>
-  `).join('');
-  </script>
-  <script>initIndexPage();</script>
+ <div id="site-header"></div>
+ <main class="max-w-5xl mx-auto px-4 py-8">
+ <section class="text-center mb-8">
+ <h1 class="text-3xl font-bold mb-2">Japan Life Guide</h1>
+ <p class="text-gray-600 mb-6">Free tools and guides for foreigners living in Japan — all in one place</p>
+ <input id="search-input" type="search" placeholder="Search guides (e.g. doctor, garbage, city hall...)"
+ class="w-full max-w-lg mx-auto block border border-gray-300 rounded-lg px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-blue-500">
+ </section>
+ <div id="search-results" class="card-grid hidden mb-8"></div>
+ <section class="mb-10">
+ <h2 class="text-xl font-bold mb-4">Free Tools by Topic</h2>
+ <p class="text-gray-500 mb-4 text-sm">Tap any tool to open it. All free, no sign-up needed.</p>
+ <div id="tool-grid"></div>
+ </section>
+ <section class="mb-10">
+ <h2 class="text-xl font-bold mb-4">Step-by-Step Guides</h2>
+ <div id="category-cards" class="card-grid"></div>
+ </section>
+ <section>
+ <h2 class="text-xl font-bold mb-4">Popular Guides</h2>
+ <div id="featured-guides" class="card-grid"></div>
+ </section>
+ </main>
+ <section style="border:1px solid #e2e8f0;border-radius:12px;padding:20px 16px;margin:24px auto;max-width:600px;text-align:center;background:#f8fafc;">
+ <p style="font-weight:700;font-size:1.05rem;color:#1e3a5f;margin:0 0 6px;">Improve your Japanese for daily life</p>
+ <p style="font-size:0.85rem;color:#555;margin:0 0 14px;">Unlimited online lessons with native speakers. No booking, no waiting.</p>
+ <a href="//af.moshimo.com/af/c/click?a_id=5455754&p_id=6054&pc_id=16990&pl_id=77719" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" target="_blank" style="display:inline-block;padding:10px 20px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.9rem;min-height:44px;line-height:24px;">Try NativeCamp Free for 7 Days</a><img src="//i.moshimo.com/af/i/impression?a_id=5455754&p_id=6054&pc_id=16990&pl_id=77719" width="1" height="1" style="border:none;" loading="lazy">
+ </section>
+ <div id="site-footer"></div>
+ <script src="js/guides-data.js"></script>
+ <script src="js/resources-data.js"></script>
+ <script src="js/components.js"></script>
+ <script src="js/app.js"></script>
+ <script>
+ const toolCategories = [
+ {cat:"Money & Tax", icon:"💰", tools:[
+ {n:"Tax Calculator",d:"Income tax, resident tax, insurance — see your take-home pay",u:"https://humancronadmin.github.io/japan-tax-calculator/"},
+ {n:"US Expat Tax Checker",d:"FBAR, FATCA, double taxation explained for Americans in Japan",u:"https://humancronadmin.github.io/japan-expat-tax-checker/"},
+ {n:"NISA Investment Guide",d:"Post-NISA options: iDeCo, taxable accounts, overseas brokers",u:"https://humancronadmin.github.io/nisa-investment-guide/"},
+ {n:"Advanced Finance",d:"Brokerage accounts, investment strategies for long-term residents",u:"https://humancronadmin.github.io/japan-advanced-finance/"},
+ {n:"Money Transfer Compare",d:"Wise vs Revolut vs SBI Remit — fees and rates side by side",u:"https://humancronadmin.github.io/money-transfer-japan/"},
+ {n:"Tech Salary Explorer",d:"Compare tech salaries by role, city, and experience level",u:"https://humancronadmin.github.io/japan-tech-salary/"}
+ ]},
+ {cat:"Housing & Daily Life", icon:"🏠", tools:[
+ {n:"Housing Help",d:"Renting an apartment: key money, guarantors, and English-friendly options",u:"https://humancronadmin.github.io/japan-housing-help/"},
+ {n:"Utility Setup Guide",d:"Electricity, gas, water, internet — step by step",u:"https://humancronadmin.github.io/japan-utility-setup/"},
+ {n:"Disposal Guide",d:"How to sort and dispose of 20+ item types correctly",u:"https://humancronadmin.github.io/japan-disposal-guide/"}
+ ]},
+ {cat:"Health & Safety", icon:"🏥", tools:[
+ {n:"Emergency Phrases",d:"Essential Japanese for medical, police, and disaster emergencies",u:"https://humancronadmin.github.io/japan-emergency-phrases/"},
+ {n:"Scam Checker",d:"Check if a business or offer is a known scam targeting foreigners",u:"https://humancronadmin.github.io/japan-scam-checker/"},
+ {n:"Fake Product Detector",d:"Spot counterfeit goods and fraudulent sellers in Japan",u:"https://humancronadmin.github.io/japan-fake-detector/"},
+ {n:"Wheelchair Accessibility",d:"Accessible spots, transport, and hotels across Japan",u:"https://humancronadmin.github.io/wheelchair-accessibility-guide/"}
+ ]},
+ {cat:"Paperwork & Admin", icon:"📋", tools:[
+ {n:"Bureaucracy Buddy",d:"Post-arrival checklist filtered by visa type",u:"https://humancronadmin.github.io/japan-bureaucracy-buddy/"},
+ {n:"Pro Finder",d:"Find English-speaking professionals: lawyers, accountants, doctors",u:"https://humancronadmin.github.io/japan-pro-finder/"}
+ ]},
+ {cat:"Shopping & Sizes", icon:"🛍️", tools:[
+ {n:"Size Converter",d:"Clothing and shoe sizes: Japan, US, UK, EU instantly",u:"https://humancronadmin.github.io/japan-size-converter/"},
+ {n:"Proxy Helper",d:"How to buy Japan-only items and ship internationally",u:"https://humancronadmin.github.io/japan-proxy-helper/"},
+ {n:"Foreign Grocery Finder",d:"Where to find home-country foods in Japan",u:"https://humancronadmin.github.io/foreign-grocery-finder/"}
+ ]},
+ {cat:"Language & Education", icon:"🗣️", tools:[
+ {n:"Nihongo VS",d:"Compare similar Japanese words and grammar side by side",u:"https://humancronadmin.github.io/nihongo-vs/"},
+ {n:"School Finder",d:"Compare Japanese language schools by location, price, and visa support",u:"https://humancronadmin.github.io/japanese-school-finder/"},
+ {n:"Salon Finder",d:"English-friendly hair salons across major Japanese cities",u:"https://humancronadmin.github.io/japan-salon-finder/"}
+ ]}
+ ];
+ const tg=document.getElementById('tool-grid');
+ tg.innerHTML=toolCategories.map(c=>`
+ <div style="margin-bottom:24px;">
+ <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:10px;">${c.icon} ${c.cat}</h3>
+ <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;">
+ ${c.tools.map(t=>`<a href="${t.u}" target="_blank" rel="noopener" style="display:block;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:14px 16px;text-decoration:none;color:inherit;transition:box-shadow .15s;min-height:44px;" onmouseover="this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)'" onmouseout="this.style.boxShadow='none'">
+ <div style="font-weight:600;font-size:0.95rem;color:#1e3a5f;margin-bottom:4px;">${t.n}</div>
+ <div style="font-size:0.82rem;color:#64748b;line-height:1.4;">${t.d}</div>
+ </a>`).join('')}
+ </div>
+ </div>
+ `).join('');
+ </script>
+ <script>initIndexPage();</script>
 </body>
 </html>
